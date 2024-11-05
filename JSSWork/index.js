@@ -103,10 +103,10 @@
 //     disp.innerHTML="<h2>Hello, You have called GetData</h2>";
 // }
 // btn.addEventListener("click",getData);
-const promise=new promise((resolve,reject)=>{
+const promise=new Promise((resolve,reject)=>{
     let a=12;
     if(a>10){
-        resolve("Resolved");
+        resolve({name:"Rahul",branch:"AIMLCSE"});
     }
     else{
         reject("Rejected");
