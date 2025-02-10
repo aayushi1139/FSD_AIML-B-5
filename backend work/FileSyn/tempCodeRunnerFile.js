@@ -1,0 +1,1 @@
+const rd=fs.readFileSync("data.txt",{encoding:'utf-8'});
